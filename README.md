@@ -108,12 +108,12 @@
     <div class="container">
         <img src="https://via.placeholder.com/150" alt="Avatar" class="profile-img">
         
-        <h1>Tên Của Bạn</h1>
+        <h1>DONG CONG TAN TAI</h1>
         <p class="bio">Sáng tạo nội dung & Chia sẻ đam mê ✨<br>Kết nối với mình qua các nền tảng bên dưới nhé!</p>
 
         <div class="links">
-            <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer" class="link-card facebook-btn">
-                <i class="fab fa-facebook"></i> Facebook của mình
+            <a href="https://www.tiktok.com/@dmmyothi?_r=1&_t=ZS-94SmLjvwAy4" target="_blank" rel="noopener noreferrer" class="link-card facebook-btn">
+                <i class="fab fa-facebook"></i> tiktok của mình
             </a>
 
             <a href="https://www.tiktok.com/@dmmyothi?_r=1&_t=ZS-94SlWztxbKn" target="_blank" rel="noopener noreferrer" class="link-card tiktok-btn">
