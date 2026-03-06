@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Profile</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f8fafc;
+            --accent: #38bdf8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: var(--card);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--accent);
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+        h1 { margin: 10px 0; font-size: 1.8rem; }
+        p { color: #94a3b8; font-size: 1rem; margin-bottom: 1.5rem; }
+        .links { display: flex; flex-direction: column; gap: 12px; }
+        .link-item {
+            background: rgba(255,255,255,0.05);
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+        .link-item:hover {
+            background: var(--accent);
+            color: var(--bg);
+            transform: translateY(-3px);
+        }
+        .footer { margin-top: 2rem; font-size: 0.8rem; color: #64748b; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Avatar" class="profile-img">
+        
+        <h1>Tên Của Bạn</h1>
+        <p>Creative Developer | Tech Enthusiast</p>
+
+        <div class="links">
+            <a href="#" class="link-item">🚀 Facebook</a>
+            <a href="#" class="link-item">📸 Instagram</a>
+            <a href="#" class="link-item">💻 GitHub / Portfolio</a>
+            <a href="mailto:email@example.com" class="link-item">📧 Liên hệ tôi</a>
+        </div>
+
+        <div class="footer">
+            © 2026 Crafted with ✨ by Gemini
+        </div>
+    </div>
+
+</body>
+</html>
